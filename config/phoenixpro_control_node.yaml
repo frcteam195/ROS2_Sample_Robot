@@ -1,0 +1,3 @@
+phoenixpro_control_node:
+  ros__parameters:
+    canivore_name: "jetsoncanivore1"
