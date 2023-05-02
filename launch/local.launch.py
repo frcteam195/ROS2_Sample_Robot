@@ -3,6 +3,8 @@ import pathlib
 from launch import LaunchDescription
 from launch_ros.actions import Node
 
+LOG_LEVEL='debug'
+
 class LaunchHelper:
     def __init__(self) -> None:
         self.ld = LaunchDescription()
@@ -19,7 +21,10 @@ class LaunchHelper:
                 package=node_name,
                 name=node_name,
                 executable=node_name,
-                parameters=config_list
+                parameters=config_list,
+                output='screen',
+                emulate_tty=True,
+                arguments=[('__log_level:='+LOG_LEVEL)]
             )
         )
 
