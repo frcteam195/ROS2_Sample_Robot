@@ -10,5 +10,6 @@ def generate_launch_description():
     launch_helper = LaunchHelper()
 
     launch_helper.add_node_launch("phoenixpro_control_node", "phoenixpro_control_node.yaml")
+    launch_helper.add_node_launch("rio_control_ros2_node", "rio_control_ros2_node.yaml")
     
     return launch_helper.get_launch_description()
