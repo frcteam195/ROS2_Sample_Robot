@@ -1,3 +1,6 @@
 rio_control_ros2_node:
   ros__parameters:
     roborio_ip_address: "10.1.95.2"
+    roborio_control_timeout: 1.0
+    compressor_enabled_in_auto: false
+
