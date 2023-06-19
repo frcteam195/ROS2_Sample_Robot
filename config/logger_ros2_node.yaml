@@ -1,0 +1,5 @@
+logger_ros2_node:
+  ros__parameters:
+    log_path: "/mnt/working"
+    log_prefix: "ros2_log_"
+    disabled_log_restart_time: 10
