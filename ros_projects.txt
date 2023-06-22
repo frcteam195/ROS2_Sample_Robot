@@ -7,3 +7,4 @@ git@github.com:frcteam195/ck_utilities_ros2_py_node.git
 git@github.com:frcteam195/frc_robot_utilities_ros2_py_node.git
 git@github.com:frcteam195/hmi_agent_ros2_sample_node.git
 git@github.com:frcteam195/health_monitor_ros2_sample_node.git
+git@github.com:frcteam195/dashboard_interface_ros2_sample_node.git
