@@ -1,0 +1,29 @@
+health_monitor_ros2_sample_node:
+  ros__parameters:
+    node_checklist: [
+        "/arm_node",
+        "/autonomous_node",
+        "/dashboard_interface_node",
+        "/hmi_agent_node",
+        "/intake_node",
+        "/limelight_vision_node",
+        "/network_tables_node",
+        "/rio_control_node",
+        "/swerve_drivetrain_node",
+        "/swerve_trajectory_node",
+        "/ukf_se",
+    ]
+    motor_id_checklist: [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        11,
+        13,
+        14
+    ]
