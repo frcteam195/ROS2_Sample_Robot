@@ -10,3 +10,4 @@ git@github.com:frcteam195/hmi_agent_ros2_sample_node.git
 git@github.com:frcteam195/logger_ros2_node.git
 git@github.com:frcteam195/phoenixpro_control_node.git
 git@github.com:frcteam195/rio_control_ros2_node.git
+git@github.com:frcteam195/swerve_drivetrain_ros2_node.git
