@@ -1,4 +1,4 @@
-dashboard_interface_ros2_sample_node:
+dashboard_interface_ros2_node:
   ros__parameters:
     udp_listen_address: "0.0.0.0"
     udp_send_port: 5807

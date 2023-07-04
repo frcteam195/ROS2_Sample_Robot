@@ -1,0 +1,3 @@
+drivetrain_ros2_node:
+  ros__parameters:
+    example_param: 1
