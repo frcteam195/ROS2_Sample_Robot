@@ -1,3 +1,4 @@
 phoenixpro_control_node:
   ros__parameters:
     canivore_name: "jetsoncanivore1"
+    sensor_update_frequency_hz: 100

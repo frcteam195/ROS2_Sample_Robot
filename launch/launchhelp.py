@@ -18,6 +18,7 @@ class LaunchHelper:
 
         self.ld.add_action(
             Node(
+                # prefix=["gdb -ex=r --args"],
                 package=node_name,
                 name=node_name,
                 executable=node_name,
